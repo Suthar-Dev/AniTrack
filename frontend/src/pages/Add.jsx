@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./styles.scss";
 
 const Add = () => {
   const [anim, setAnim] = useState({
